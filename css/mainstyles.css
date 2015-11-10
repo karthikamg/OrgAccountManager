@@ -1,0 +1,63 @@
+/* line 3, ../resources/scss/helpers/_base.scss */
+body {
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #e5f9ff;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+/* line 14, ../resources/scss/helpers/_base.scss */
+header, footer {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+/* line 21, ../resources/scss/helpers/_base.scss */
+ul li {
+  list-style-type: none;
+}
+
+/* line 3, ../resources/scss/layout/_left-sidebar.scss */
+#main-menu-wrapper {
+  width: 20%;
+  float: left;
+  padding: 5px;
+  border-right: 1px solid #d7d7d7;
+}
+
+/* line 10, ../resources/scss/layout/_left-sidebar.scss */
+#main-menu-wrapper select {
+  margin-top: 25px;
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  line-height: 1;
+  font-size: 18px;
+  background-color: #e5f9ff;
+  -webkit-appearance: none;
+  box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.6);
+  outline: none;
+}
+/* line 22, ../resources/scss/layout/_left-sidebar.scss */
+#main-menu-wrapper select option {
+  padding: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* line 3, ../resources/scss/layout/_right-menu-content.scss */
+#menubar-content-wrapper {
+  width: 75%;
+  float: left;
+  padding: 15px;
+}
+
+/* line 10, ../resources/scss/layout/_right-menu-content.scss */
+#menubar-content-wrapper header {
+  padding-top: 25px;
+}
